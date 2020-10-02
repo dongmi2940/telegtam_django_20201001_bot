@@ -1,7 +1,7 @@
 django~=2.2.1
 requests 
 beautifulsoup4
-python-telegram-botte
+python-telegram-bot
 django-bootstrap4
 django-environ
 
