@@ -34,7 +34,7 @@ def webhook(request):
         # 2안: 
         text = '\n'.join(keyword_list)
     elif received_text == '내역':
-        text = ''
+        text = "---내역---\n"
         for post in Post.objects.all():
             post_url = request.build_absolute_uri(resolve_url(post))
             text += f"""{post.title}
